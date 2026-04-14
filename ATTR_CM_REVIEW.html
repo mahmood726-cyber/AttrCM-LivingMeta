@@ -2282,7 +2282,7 @@ const ContinuousMDEngine = {
     },
     'NCT03997383': {
                     baseline: {"n": 360, "age": 75.0, "female": 8.0, "wtATTR": 83.0, "nyha_III": 28.0},
-        name: 'APOLLO-B', phase: 'III', year: 2022, tE: 10, tN: 181, cE: 10, cN: 179, group: 'ATTR-CM (mixed)', publishedHR: null,
+        name: 'APOLLO-B', phase: 'III', year: 2022, tE: 10, tN: 181, cE: 10, cN: 179, group: 'ATTR-CM (mixed)', publishedHR: 0.99, hrLCI: 0.40, hrUCI: 2.43, /* Peto 1-step log-rank from events: log(HR)=-0.012, SE=0.459. APOLLO-B primary endpoint was 6MWT; mortality not reported as explicit HR in primary publication. */
         allOutcomes: [
             { shortLabel: 'MACE', title: 'All-cause mortality', tE: 10, cE: 10, type: 'EXPLORATORY' },
             { shortLabel: '6MWD', title: 'Change in 6MWD from baseline', type: 'SECONDARY' }
