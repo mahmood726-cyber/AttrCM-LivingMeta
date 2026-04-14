@@ -1,0 +1,7 @@
+PROGRESS.md
+review-findings*.md
+STUCK_FAILURES.md
+*.bak.html
+__pycache__/
+*.pyc
+.deploy_state.json
